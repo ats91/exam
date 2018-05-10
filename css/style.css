@@ -45,7 +45,7 @@ div#carousel ~ span:hover { color: #888; cursor: pointer; }
 html, body{
     margin: 0;
     color: black;
-    background: black;
+    background: url(..//img/Fon-sajta.jpg);
 }
 
 a{
@@ -65,7 +65,7 @@ a{
 }
 
 .info {
-    padding: 22% 0 0% 5%;
+    padding: 15% 0 0% 5%;
     flex-basis: 40%;
 }
 
@@ -78,7 +78,7 @@ p{
     position: fixed;
     bottom: 0;
     left: 0;
-
+    font-size: 1.3em;
 }
 
 .grid{
