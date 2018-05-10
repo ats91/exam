@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Landing</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+   
+    <div class="grid">
+     <header>
+         
+<div id="carousel">
+  <figure id="spinner">
+    <img src="img/dark.jpg" alt class="img">
+    <img src="img/light.jpg" alt class="img">
+    <img src="img/fier.jpg" alt class="img">
+    <img src="img/water.jpg" alt class="img">
+    <img src="img/earth.jpg" alt class="img">
+    <img src="img/wind.jpg" alt class="img">
+    <img src="img/metal.jpg" alt class="img">
+    <img src="img/tree.jpg" alt class="img">
+  </figure>
+</div>
+<span style="float:left" class="ss-icon" onclick="galleryspin('-')">&lt;</span>
+<span style="float:right" class="ss-icon" onclick="galleryspin('')">&gt;</span>
+
+     </header>
+
+     <nav>
+         <div class="menuItem">
+             <a href="#" class="MenuElem">
+
+                <span class="menu__text">Информация</span>
+             </a>
+         </div>
+
+         <div class="menuItem">
+             <a href="#" class="MenuElem">
+
+                <span class="menu__text">Литература</span>
+             </a>
+         </div>
+
+         <div class="menuItem">
+             <a href="#" class="MenuElem">
+
+                <span class="MenuElem">Сертификаты</span>
+             </a>
+         </div>
+
+         <div class="menuItem">
+             <a href="#" class="MenuElem">
+
+                <span class="MenuElem">Контакты</span>
+             </a>
+         </div>
+         
+     </nav>
+     <main>
+        <div class="info">
+            <p>Кратко о себе:</p>
+            <p>Фамилия: Цакунов</p>
+            <p>Имя: Андрей</p>
+            <p>Отчество: Александрович </p>
+            <p>Дата рождения: 21.05.1991</p>
+            <p>Место проживания: Республика Беларусь / город Гомель</p>
+            <p>Уровень образования: магистр технических наук</p>
+        </div>
+        <img src="img/MyPhoto.jpg" alt="My photo" class="imagemy">
+     </main>
+
+     <footer>
+
+    <div class="contact">
+    <label link="myname"><p>Форма обратной связи</p>
+    <div>
+        <label link="myname">
+            <input type="text" name="myname" size="30" maxlength="15" pattern="[a-zA-Z0-9а-яА-Я]+" placeholder="Введите свое имя" required></label>
+    </div>
+        
+    <div>
+        <label link="phone">
+            <input type="text" name="phone" size="30" maxlength="30" pattern="[a-zA-Z0-9а-яА-Я]+" placeholder="Введите свой номер телефона" required></label>
+    </div>
+
+    <div>
+        <label link="email">
+            <input type="email" name="email" size="30" maxlength="30" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,15}" placeholder="Введите свой email" required></label>
+    </div>
+    
+    <div>
+        <label link="phone_time">
+            <input type="text" name="phone_time" size="30" maxlength="30" pattern="[a-zA-Z0-9а-яА-Я]+" placeholder="Введите дату и время звонка" required></label>
+    </div>
+
+    <div class="buttons">
+        <input type="submit" value="отправить">
+    </div>
+    </div>
+     </footer>
+    </div>
+  
+<a href="#"><div class="tel">+375-25-732-xx-xx</div></a>
+
+</body>
+</html>
